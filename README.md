@@ -7,5 +7,5 @@
 **Install**:
 
 ```bash
-$ pnpm i -D @alexey-koran/prettier-config
+pnpm i -D @alexey-koran/prettier-config
 ```
