@@ -1,0 +1,2 @@
+# prettier-config
+Prettier configuration
