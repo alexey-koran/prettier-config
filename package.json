@@ -1,6 +1,6 @@
 {
   "name": "@alexey-koran/prettier-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Prettier configuration",
   "main": "index.json",
   "author": "Alexey-Koran <alexey.koran@gmail.com>",
