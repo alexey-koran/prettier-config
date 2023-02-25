@@ -19,3 +19,5 @@ module.exports = {
   ...require('@alexey-koran/prettier-config'),
 };
 ```
+
+> [Example](https://github.com/alexey-koran/react-template/blob/main/prettier.config.cjs)
