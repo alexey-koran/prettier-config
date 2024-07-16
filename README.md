@@ -1,23 +1,26 @@
 # `@alexey-koran/prettier-config`
 
-> [Prettier](https://prettier.io) config.
+Prettier [sharing configuration](https://prettier.io/docs/en/configuration.html#sharing-configurations)
 
-## Usage
-
-**Install**:
+### Installation
 
 ```bash
 pnpm i -D @alexey-koran/prettier-config
 ```
 
-> [Sharing configuration:](https://prettier.io/docs/en/configuration.html#sharing-configurations)
+### Usage
 
-prettier.config.cjs
+
+prettier.config.mjs
 
 ```js
-module.exports = {
-  ...require('@alexey-koran/prettier-config'),
+import externalConfig from '@alexey-koran/prettier-config';
+
+/** @type {import('prettier').Config} */
+
+export default {
+  ...externalConfig,
 };
 ```
 
-> [Example](https://github.com/alexey-koran/react-template/blob/main/prettier.config.cjs)
+### [Example](https://github.com/alexey-koran/react-template/blob/main/prettier.config.mjs)

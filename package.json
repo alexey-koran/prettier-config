@@ -1,8 +1,9 @@
 {
   "name": "@alexey-koran/prettier-config",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Prettier configuration",
-  "main": "index.json",
+  "main": "index.mjs",
+  "type": "module",
   "author": "Alexey-Koran <alexey.koran@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/alexey-koran/prettier-config/issues"
   },
-  "homepage": "https://github.com/alexey-koran/prettier-config#readme"
+  "homepage": "https://github.com/alexey-koran/prettier-config#readme",
+  "devDependencies": {
+    "prettier": "^3"
+  }
 }
