@@ -10,7 +10,6 @@ pnpm i -D @alexey-koran/prettier-config
 
 ### Usage
 
-
 prettier.config.mjs
 
 ```js
