@@ -23,6 +23,9 @@
     "url": "https://github.com/alexey-koran/prettier-config/issues"
   },
   "homepage": "https://github.com/alexey-koran/prettier-config#readme",
+  "exports": {
+    "./package.json": "./package.json"
+  },
   "devDependencies": {
     "prettier": "^3.5.3"
   },
