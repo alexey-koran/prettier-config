@@ -1,1 +1,1 @@
-export { mjs } from './configs/module.mjs'
+export { mjs } from './configs/module.mjs';

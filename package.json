@@ -14,7 +14,11 @@
     "type": "git",
     "url": "git+https://github.com/alexey-koran/prettier-config.git"
   },
-  "keywords": ["prettier", "config", "shared"],
+  "keywords": [
+    "prettier",
+    "config",
+    "shared"
+  ],
   "bugs": {
     "url": "https://github.com/alexey-koran/prettier-config/issues"
   },

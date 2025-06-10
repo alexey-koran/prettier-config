@@ -12,5 +12,5 @@ export const mjs = {
   singleAttributePerLine: true,
   jsxSingleQuote: true,
   useTabs: false,
-  trailingComma: 'all'
-}
+  trailingComma: 'all',
+};
