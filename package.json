@@ -24,7 +24,9 @@
   },
   "homepage": "https://github.com/alexey-koran/prettier-config#readme",
   "exports": {
-    "./package.json": "./package.json"
+    ".": {
+      "import": "./index.mjs"
+    }
   },
   "devDependencies": {
     "prettier": "^3.5.3"
