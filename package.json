@@ -7,7 +7,8 @@
   "author": "Alexey-Koran <alexey.koran@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prettier": "prettier --check \"**/*.{js,cjs,mjs,ts,cts,mts}\"",
+    "prettier:fix": "prettier --write \"**/*.{js,cjs,mjs,ts,cts,mts}\""
   },
   "repository": {
     "type": "git",
