@@ -1,6 +1,6 @@
 {
   "name": "@alexey-koran/prettier-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Shared prettier config",
   "main": "index.mjs",
   "type": "module",
