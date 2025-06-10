@@ -18,6 +18,9 @@
     "url": "https://github.com/alexey-koran/prettier-config/issues"
   },
   "homepage": "https://github.com/alexey-koran/prettier-config#readme",
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  },
   "peerDependencies": {
     "prettier": "^3"
   }
