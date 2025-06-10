@@ -20,7 +20,7 @@
     "url": "https://github.com/alexey-koran/prettier-config/issues"
   },
   "homepage": "https://github.com/alexey-koran/prettier-config#readme",
-  "devDependencies": {
+  "peerDependencies": {
     "prettier": "^3"
   }
 }
