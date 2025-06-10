@@ -1,26 +1,37 @@
 {
   "name": "@alexey-koran/prettier-config",
-  "version": "0.1.1",
-  "description": "Prettier configuration",
+  "version": "0.1.2",
+  "description": "Shared prettier config",
   "main": "index.mjs",
   "type": "module",
   "author": "Alexey-Koran <alexey.koran@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prettier": "prettier --check \"**/*.{js,cjs,mjs,ts,cts,mts}\"",
+    "prettier:fix": "prettier --write \"**/*.{js,cjs,mjs,ts,cts,mts}\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alexey-koran/prettier-config.git"
   },
   "keywords": [
-    "Prettier config"
+    "prettier",
+    "config",
+    "shared"
   ],
   "bugs": {
     "url": "https://github.com/alexey-koran/prettier-config/issues"
   },
   "homepage": "https://github.com/alexey-koran/prettier-config#readme",
+  "exports": {
+    ".": {
+      "import": "./index.mjs"
+    }
+  },
   "devDependencies": {
+    "prettier": "^3.5.3"
+  },
+  "peerDependencies": {
     "prettier": "^3"
   }
 }
