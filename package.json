@@ -33,6 +33,6 @@
     "prettier": "^3.6.2"
   },
   "peerDependencies": {
-    "prettier": "^3"
+    "prettier": "^3.6.2"
   }
 }
