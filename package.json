@@ -23,7 +23,7 @@
     "url": "https://github.com/alexey-koran/prettier-config/issues"
   },
   "homepage": "https://github.com/alexey-koran/prettier-config#readme",
-  "packageManager": "pnpm@10.18.1",
+  "packageManager": "pnpm@10.18.3",
   "exports": {
     ".": {
       "import": "./index.mjs",
